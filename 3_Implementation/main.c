@@ -1,3 +1,13 @@
+/**
+ * @file main.c
+ * @author Dilip NV (dilipnatarajan1705@gmail.com)
+ * @brief This is the main program where the project is run
+ * @version 0.1
+ * @date 2022-03-26
+ * 
+ * @copyright Copyright (c) 2022
+ * 
+ */
 #include<stdio.h>
 #include<conio.h>
 #include<string.h>
@@ -12,6 +22,12 @@ char name[20],add[20],email[30];
 char query[20],name[20];
 FILE *fp, *ft;
 int i,n,ch,l,found;
+/* Start of the application */
+/**
+ * @brief Main program
+ * @return int
+ * @return int 
+ */
 int main()
 {
 main:
